@@ -6,7 +6,7 @@ import sys
 lib_path = os.path.abspath(os.path.join("DataStructures/Heap"))
 sys.path.insert(0, lib_path)
 
-from Heaps import MaxHeap
+from ...DataStructures.Heap.Heaps import MaxHeap
 
 def HeapSort(array: list) -> list:
     '''

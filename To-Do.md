@@ -9,7 +9,7 @@
 7. MinHeap Heaps.py
 8. Doc of heaps.py, QuickSort.py
 9. Geek4Geek Maxheap python and hoare partition is wrong
-
+10. Implement __call__ function for classes
 
 
 
