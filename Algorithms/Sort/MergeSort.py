@@ -30,7 +30,7 @@ class MergeSort:
         sort(array) -> Calls sortRecusion method on a given List 'array'
                        by Merge sort algorithm and returns the sorted array.
         """
-        return self.__sortRecursion(0, len(self.array))
+        return self.__sortRecursion(0, len(self.array)-1)
 
     # Private Method
     def __sortRecursion(self, first: int, last: int) -> list:
@@ -67,8 +67,8 @@ class MergeSort:
             else:
                 self.array[k] = Left[i]
                 i += 1
-            if Left[i] == float('inf') and Right[j] == float('inf'):
-                break
+            # if Left[i] == float('inf') and Right[j] == float('inf'):
+            #     break
 
 
 if __name__ == "__main__":
